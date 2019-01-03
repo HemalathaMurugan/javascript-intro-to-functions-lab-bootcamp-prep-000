@@ -22,6 +22,7 @@ function logWhisper(String) {
 function sayHiToGrandma(String) {
   var check=`${String}`
   
+<<<<<<< HEAD
   if(check==="I love you, Grandma.") {
     return "I love you, too."
   }
@@ -35,3 +36,15 @@ function sayHiToGrandma(String) {
 }
   
 
+=======
+  if(check===`${String}.toUppercase()`) {
+   return "YES INDEED!"
+  }
+  if (check===`${String}.toLowerCase()`) {
+   return "I can't hear you!"
+  }
+  if(check==="I love you, Grandma.") {
+    return "I love you, too."
+  }
+}
+>>>>>>> b06a151dc74c2d6ef9b02e72eeb94ba95e12d25a
